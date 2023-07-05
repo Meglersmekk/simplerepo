@@ -6,7 +6,6 @@ html {
   margin: 0;
   border: 0;
   padding: 0;
-  background-color: #fff;
 }
 
 main {
@@ -23,11 +22,84 @@ main > h1 {
 body {
   font-family: Arial;
   font-size: small;
-  margin-top: 4px;
-  margin-left: 4px;
-  margin-right: 4px;
+  margin-top: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
   margin-bottom: 0px;
+  background-color: #fff;
+  background: url("bilder/bakgrund.gif") repeat-y;
+
+  /* unvisited link */
+  a:link {
+    color: "#006699";
+  }
+
+  /* visited link */
+  a:visited {
+    color: blue;
+  }
 }
+/*
 .MsoNormalTable {
-  font-size: 10.0pt;
+  font-size: 10pt;
 }
+
+ {
+  mso-spl-e: yes;
+}
+/* Font Definitions 
+@font-face {
+  font-family: Verdana;
+  panose-1: 2 11 6 4 3 5 4 4 2 4;
+  mso-font-charset: 0;
+  mso-generic-font-family: swiss;
+  mso-font-pitch: variable;
+  mso-font-signature: 536871559 0 0 0 415 0;
+}
+/* Style Definitions 
+p.MsoNormal,
+li.MsoNormal,
+div.MsoNormal {
+  mso-style-parent: "";
+  margin: 0cm;
+  margin-bottom: 0.0001pt;
+  mso-pagination: widow-orphan;
+  font-size: 12pt;
+  font-family: "Times New Roman";
+  mso-fareast-font-family: "Times New Roman";
+  color: black;
+}
+a:link,
+span.MsoHyperlink {
+  color: #006699;
+  text-decoration: underline;
+  text-underline: single;
+}
+a:visited,
+span.MsoHyperlinkFollowed {
+  color: blue;
+  text-decoration: underline;
+  text-underline: single;
+}
+p {
+  margin-right: 0cm;
+  mso-margin-top-alt: auto;
+  mso-margin-bottom-alt: auto;
+  margin-left: 0cm;
+  mso-pagination: widow-orphan;
+  font-size: 12pt;
+  font-family: "Times New Roman";
+  mso-fareast-font-family: "Times New Roman";
+  color: black;
+}
+@page Section1 {
+  size: 595.3pt 841.9pt;
+  margin: 70.85pt 70.85pt 70.85pt 70.85pt;
+  mso-header-margin: 35.4pt;
+  mso-footer-margin: 35.4pt;
+  mso-paper-source: 0;
+}
+div.Section1 {
+  page: Section1;
+}
+/*
